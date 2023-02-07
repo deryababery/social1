@@ -1,0 +1,498 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    padding: 50px;
+    text-align: center;
+    background:url("dd.jpg") ;
+    background-size:cover;
+    
+
+}
+.container{
+    height: 540px;
+    width: 380px;
+    overflow: hidden;
+    margin: 0 auto;
+     border-radius: 5px ;
+     background: linear-gradient(45deg,#7b00e0,#85469a);
+}
+.container  .wrapper img{
+    position: relative;
+    z-index: 20;
+    border-radius: 50%;
+    display: block;
+    height: 200px;
+    width: 200px;
+    border: 5px solid #fff;
+    object-fit: cover;
+    margin: 20px auto;
+}
+.wrapper .tittle{
+color: #fff;
+font-size: 30px;
+font-weight:  500;
+padding: 10px;
+line-height: 25px;
+}
+.wrapper .place{
+    color: #fff;
+    font-size: 17px;
+    line-height: 0px;
+    margin: 10px 0;
+    }
+    .content{
+        color: #fff;
+font-size: 17px;
+margin-top: 10px;
+padding: 1px 20px 10px 20px !important;
+    }
+    .content .buttons{
+display: flex;
+
+
+    }
+    .buttons .btn{
+       height: 40px;
+       width: 150px;
+       margin: 0  5px;
+       
+            }
+            .buttons .btn button{
+               height: 100%;
+               width: 100%;
+               background: #fff;
+               border: none;
+               cursor: pointer;
+               font-size: 17px;
+               font-weight: 500;
+               border-radius: 5px;
+               transition: all 0.3s;
+               color: black;
+
+
+                     }
+                     .btn button:hover{
+                        transform:  scale(0.95);
+                     }
+                     .wrapper .icon{
+                        position: relative;
+                        background-color: #ffffff;
+                        border-radius: 50%;
+                        margin:0 10px;
+                       margin-top: 28px;
+                        width: 45px;
+                        height: 45px;
+                        line-height: 53px;
+                        font-size: 30px;
+                        display: inline-block;
+                        align-items: center;
+                        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+                        cursor: pointer;
+                        transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+                        color: #333;
+                        text-decoration: none;
+                      }
+                      .wrapper .tooltip {
+                        position: absolute;
+                        
+                        top: 0;
+                        line-height: 1.4;
+                        font-size: 15px;
+                        background-color: #ffffff;
+                        color:none;
+                        padding: 5px 8px;
+                        border-radius: 10px;
+                        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+                        opacity: 0;
+                        pointer-events: none;
+                        transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+                      }
+                      .wrapper .tooltip::before {
+                        position: absolute;
+                        content: "";
+                        height: 8px;
+                        width: 8px;
+                        background-color: #ffffff;
+                        bottom: -3px;
+                        left: 50%;
+                        transform: translate(-50%) rotate(45deg);
+                        transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+                      }
+                      .wrapper .icon:hover .tooltip {
+                        top: -35px;
+                        opacity: 1;
+                        visibility: visible;
+                        pointer-events: auto;
+                      }
+                      .wrapper .icon:hover span,
+                      .wrapper .icon:hover .tooltip {
+                        text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+                      }
+                      .wrapper .facebook:hover,
+                      .wrapper .facebook:hover .tooltip,
+                      .wrapper .facebook:hover .tooltip::before {
+                        background-color: #3b5999;
+                        color: #ffffff;
+                      }
+                      .wrapper .twitter:hover,
+                      .wrapper .twitter:hover .tooltip,
+                      .wrapper .twitter:hover .tooltip::before {
+                        background-color: #46c1f6;
+                        color: #ffffff;
+                      }
+                      .wrapper .instagram:hover,
+                      .wrapper .instagram:hover .tooltip,
+                      .wrapper .instagram:hover .tooltip::before {
+                        background-color: #e1306c;
+                        color: #ffffff;
+                      }
+                      .wrapper .github:hover,
+                      .wrapper .github:hover .tooltip,
+                      .wrapper .github:hover .tooltip::before {
+                        background-color:yellow;
+                        color: #ffffff;
+                      }
+                      .wrapper .youtube:hover,
+                      .wrapper .youtube:hover .tooltip,
+                      .wrapper .youtube:hover .tooltip::before {
+                        background-color: #de463b;
+                        color: #ffffff;
+                      }
+           @media screen  and  (max-width:767px) {
+
+.container{
+  height: 530px;
+  width: 330px;
+ 
+  overflow: hidden;
+  margin: 0 auto;
+   border-radius: 5px ;
+   background: linear-gradient(45deg,#7b00e0,#ab41cf);
+           }
+
+           body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'poppins',sans-serif;
+            padding:18px;
+            
+            text-align: center;
+            background:url("dd.jpg") ;
+            background-size: 100%; 
+        }
+      
+
+        .container  .wrapper img{
+          position: relative;
+          z-index: 20;
+          border-radius: 50%;
+          display: block;
+          height: 160px;
+          width: 165px;
+          border: 5px solid #fff;
+          object-fit: cover;
+          margin: 20px auto;
+      }
+      .wrapper .tittle{
+        color: #fff;
+        font-size: 25px;
+        font-weight:  500;
+        padding: 10px;
+        line-height: 25px;
+        }
+        .wrapper .place{
+          color: #fff;
+          font-size: 19px;
+          line-height: 0px;
+          margin: 10px 0;
+          }
+          .content{
+            color: #fff;
+    font-size: 17px;
+    margin-top: 10px;
+    padding: 1px 20px 10px 20px !important;
+        }
+        .content .buttons{
+          display: flex;
+          
+          
+              }
+              .buttons .btn{
+                 height: 47px;
+                 width: 145px;
+                 margin: 0 
+                
+      
+                }
+                .buttons .btn button{
+                  height: 90%;
+                  width: 90%;
+                  background: #fff;
+                  border: none;
+                  cursor: pointer;
+                  font-size: 17px;
+                  font-weight: 500;
+                  border-radius: 5px;
+                  transition: all 0.3s;
+                  color: black;
+   
+                }
+                .btn button:hover{
+                  transform:  scale(0.95);
+               }
+               .wrapper .icon{
+                  position: relative;
+                  background-color: #ffffff;
+                  border-radius: 50%;
+                  margin:0 5px;
+                 margin-top: 32px;
+                  width: 45px;
+                  height: 45px;
+                  line-height: 53px;
+                  font-size: 30px;
+                  display: inline-block;
+                  align-items: center;
+                  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+                  cursor: pointer;
+                  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+                  color: #333;
+                  text-decoration: none;
+                }
+                .wrapper .tooltip {
+                  position: absolute;
+                  
+                  top: 0;
+                  line-height: 1.4;
+                  font-size: 15px;
+                  background-color: #ffffff;
+                  color:none;
+                  padding: 5px 8px;
+                  border-radius: 10px;
+                  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+                  opacity: 0;
+                  pointer-events: none;
+                  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+                }
+                .wrapper .tooltip::before {
+                  position: absolute;
+                  content: "";
+                  height: 8px;
+                  width: 8px;
+                  background-color: #ffffff;
+                  bottom: -3px;
+                  left: 50%;
+                  transform: translate(-50%) rotate(45deg);
+                  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+                }
+                .wrapper .icon:hover .tooltip {
+                  top: -35px;
+                  opacity: 1;
+                  visibility: visible;
+                  pointer-events: auto;
+                }
+                .wrapper .icon:hover span,
+                .wrapper .icon:hover .tooltip {
+                  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+                }
+                .wrapper .facebook:hover,
+                .wrapper .facebook:hover .tooltip,
+                .wrapper .facebook:hover .tooltip::before {
+                  background-color: #3b5999;
+                  color: #ffffff;
+                }
+                .wrapper .twitter:hover,
+                .wrapper .twitter:hover .tooltip,
+                .wrapper .twitter:hover .tooltip::before {
+                  background-color: #46c1f6;
+                  color: #ffffff;
+                }
+                .wrapper .instagram:hover,
+                .wrapper .instagram:hover .tooltip,
+                .wrapper .instagram:hover .tooltip::before {
+                  background-color: #e1306c;
+                  color: #ffffff;
+                }
+                .wrapper .github:hover,
+                .wrapper .github:hover .tooltip,
+                .wrapper .github:hover .tooltip::before {
+                  background-color:yellow;
+                  color: #ffffff;
+                }
+                .wrapper .youtube:hover,
+                .wrapper .youtube:hover .tooltip,
+                .wrapper .youtube:hover .tooltip::before {
+                  background-color: #de463b;
+                  color: #ffffff;
+                }
+              }
+
+
+            @media screen  and (min-width:768px) and (max-width:1023px) 
+            
+            {
+              .container{
+                height: 540px;
+                width: 380px;
+               
+                overflow: hidden;
+                margin: 0 auto;
+                 border-radius: 5px ;
+                 background: linear-gradient(45deg,#7b00e0,#ab41cf);
+                         }
+
+                         body{
+                          margin: 0;
+                          padding: 0;
+                          box-sizing: border-box;
+                          font-family: 'poppins',sans-serif;
+                          padding:35px;
+                          
+                          text-align: center;
+                          background:url("dd.jpg") ;
+                          background-size: 100%; 
+                      }
+                      .container  .wrapper img{
+                        position: relative;
+                        z-index: 20;
+                        border-radius: 50%;
+                        display: block;
+                        height: 200px;
+                        width: 200px;
+                        border: 5px solid #fff;
+                        object-fit: cover;
+                        margin: 20px auto;
+                    }
+                    .wrapper .tittle{
+                    color: #fff;
+                    font-size: 28px;
+                    font-weight:  500;
+                    padding: 10px;
+                    line-height: 20px;
+                    }
+                    .wrapper .place{
+                        color: #fff;
+                        font-size: 18px;
+                        line-height: 0px;
+                        margin: 13px 0;
+                        }
+                        .content{
+                            color: #fff;
+                    font-size: 17px;
+                    margin-top: 10px;
+                    padding: 1px 20px 10px 20px !important;
+                        }
+                        .content .buttons{
+                    display: flex;
+                    
+                    
+                        }
+                        .buttons .btn{
+                           height: 40px;
+                           width: 150px;
+                           margin: 0  5px;
+                           
+                                }
+                                .buttons .btn button{
+                                   height: 100%;
+                                   width: 100%;
+                                   background: #fff;
+                                   border: none;
+                                   cursor: pointer;
+                                   font-size: 17px;
+                                   font-weight: 500;
+                                   border-radius: 5px;
+                                   transition: all 0.3s;
+                                   color: black;
+                    
+                    
+                                         }
+                                         .btn button:hover{
+                                            transform:  scale(0.95);
+                                         }
+                                         .wrapper .icon{
+                                            position: relative;
+                                            background-color: #ffffff;
+                                            border-radius: 50%;
+                                            margin:0 10px;
+                                           margin-top: 30px;
+                                            width: 45px;
+                                            height: 45px;
+                                            line-height: 53px;
+                                            font-size: 30px;
+                                            display: inline-block;
+                                            align-items: center;
+                                            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+                                            cursor: pointer;
+                                            transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+                                            color: #333;
+                                            text-decoration: none;
+                                          }
+                                          .wrapper .tooltip {
+                                            position: absolute;
+                                            
+                                            top: 0;
+                                            line-height: 1.4;
+                                            font-size: 15px;
+                                            background-color: #ffffff;
+                                            color:none;
+                                            padding: 5px 8px;
+                                            border-radius: 10px;
+                                            box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+                                            opacity: 0;
+                                            pointer-events: none;
+                                            transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+                                          }
+                                          .wrapper .tooltip::before {
+                                            position: absolute;
+                                            content: "";
+                                            height: 8px;
+                                            width: 8px;
+                                            background-color: #ffffff;
+                                            bottom: -3px;
+                                            left: 50%;
+                                            transform: translate(-50%) rotate(45deg);
+                                            transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+                                          }
+                                          .wrapper .icon:hover .tooltip {
+                                            top: -35px;
+                                            opacity: 1;
+                                            visibility: visible;
+                                            pointer-events: auto;
+                                          }
+                                          .wrapper .icon:hover span,
+                                          .wrapper .icon:hover .tooltip {
+                                            text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+                                          }
+                                          .wrapper .facebook:hover,
+                                          .wrapper .facebook:hover .tooltip,
+                                          .wrapper .facebook:hover .tooltip::before {
+                                            background-color: #3b5999;
+                                            color: #ffffff;
+                                          }
+                                          .wrapper .twitter:hover,
+                                          .wrapper .twitter:hover .tooltip,
+                                          .wrapper .twitter:hover .tooltip::before {
+                                            background-color: #46c1f6;
+                                            color: #ffffff;
+                                          }
+                                          .wrapper .instagram:hover,
+                                          .wrapper .instagram:hover .tooltip,
+                                          .wrapper .instagram:hover .tooltip::before {
+                                            background-color: #e1306c;
+                                            color: #ffffff;
+                                          }
+                                          .wrapper .github:hover,
+                                          .wrapper .github:hover .tooltip,
+                                          .wrapper .github:hover .tooltip::before {
+                                            background-color:yellow;
+                                            color: #ffffff;
+                                          }
+                                          .wrapper .youtube:hover,
+                                          .wrapper .youtube:hover .tooltip,
+                                          .wrapper .youtube:hover .tooltip::before {
+                                            background-color: #de463b;
+                                            color: #ffffff;
+                    }}
